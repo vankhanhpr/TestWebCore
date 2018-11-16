@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 260 194" style="enable-background:new 0 0 260 194;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#32363F;}
+	.st1{font-family:'Oswald-Medium';}
+	.st2{font-size:53.7736px;}
+	.st3{clip-path:url(#XMLID_2_);fill:none;stroke:#FFBD26;stroke-width:3;stroke-miterlimit:10;}
+	.st4{clip-path:url(#SVGID_2_);fill:none;stroke:#FFBD26;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<g>
+	<text id="XMLID_1037_" transform="matrix(1 0 0 1 1.9231 93.9957)" class="st0 st1 st2">THÀNH</text>
+	<text id="XMLID_1036_" transform="matrix(1 0 0 1 139.4001 159.0289)" class="st0 st1 st2">CÔNG</text>
+	<g id="XMLID_1033_">
+		<defs>
+			<polygon id="XMLID_1034_" points="99.7,98.3 110,98.3 110,184.3 173,184.3 173,164.3 182,164.3 182,193.3 101.5,193.3 			"/>
+		</defs>
+		<clipPath id="XMLID_2_">
+			<use xlink:href="#XMLID_1034_"  style="overflow:visible;"/>
+		</clipPath>
+		<rect id="XMLID_1035_" x="105.5" y="8.8" class="st3" width="72" height="179"/>
+	</g>
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M98,37.8h16v-23h58v77.5h13.5V0.8h-87C98.5,0.8,97.2,38.5,98,37.8z"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<rect id="XMLID_1032_" x="105.5" y="8.8" class="st4" width="72" height="179"/>
+	</g>
+</g>
+</svg>

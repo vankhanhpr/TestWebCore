@@ -1,0 +1,14 @@
+D:\Working\TestWebCore\TestWebCore\bin\Debug\netcoreapp2.1\TestWebCore.deps.json
+D:\Working\TestWebCore\TestWebCore\bin\Debug\netcoreapp2.1\TestWebCore.runtimeconfig.json
+D:\Working\TestWebCore\TestWebCore\bin\Debug\netcoreapp2.1\TestWebCore.runtimeconfig.dev.json
+D:\Working\TestWebCore\TestWebCore\bin\Debug\netcoreapp2.1\TestWebCore.dll
+D:\Working\TestWebCore\TestWebCore\obj\Debug\netcoreapp2.1\TestWebCore.csproj.CoreCompileInputs.cache
+D:\Working\TestWebCore\TestWebCore\obj\Debug\netcoreapp2.1\TestWebCore.RazorAssemblyInfo.cache
+D:\Working\TestWebCore\TestWebCore\obj\Debug\netcoreapp2.1\TestWebCore.RazorAssemblyInfo.cs
+D:\Working\TestWebCore\TestWebCore\obj\Debug\netcoreapp2.1\TestWebCore.AssemblyInfoInputs.cache
+D:\Working\TestWebCore\TestWebCore\obj\Debug\netcoreapp2.1\TestWebCore.AssemblyInfo.cs
+D:\Working\TestWebCore\TestWebCore\obj\Debug\netcoreapp2.1\TestWebCore.RazorTargetAssemblyInfo.cache
+D:\Working\TestWebCore\TestWebCore\bin\Debug\netcoreapp2.1\TestWebCore.pdb
+D:\Working\TestWebCore\TestWebCore\obj\Debug\netcoreapp2.1\TestWebCore.dll
+D:\Working\TestWebCore\TestWebCore\obj\Debug\netcoreapp2.1\TestWebCore.pdb
+D:\Working\TestWebCore\TestWebCore\obj\Debug\netcoreapp2.1\TestWebCore.csprojAssemblyReference.cache

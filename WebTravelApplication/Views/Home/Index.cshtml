@@ -1,0 +1,554 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title> Website of LV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!--Link Css-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700' rel='stylesheet' type='text/css'>
+    <link href="~/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-md-12 col-xs-12" style="position:relative">
+
+                <p class="md">ĐÀ NẴNG</p>
+
+                <img src="~/images/img/img_title.png" class="image-title" />
+            </div>
+        </div>
+
+        <div class="row the-timeline">
+            <div class="col-md-12 col-xs-12 col-sm-12" style="position:relative">
+                <div class="col-lg-4 col-xs-9 cot2">
+                    <ol class="timeline timeline--summary">
+                        <li class="timeline__step done">
+                            <span class="timeline__step-title" id="tongquan">Tổng quan</span>
+                            <i class="timeline__step-marker" id="mp1"></i>
+                        </li>
+                        <li class="timeline__step done">
+                            <span class="timeline__step-title" id="themdiadiem">Thêm địa điểm</span>
+                            <i class="timeline__step-marker" id="mp2"></i>
+                        </li>
+                        <li class="timeline__step done">
+                            <span class="timeline__step-title" id="thanhcong">Thành công</span>
+                            <i class="timeline__step-marker" id="mp3"></i>
+                        </li>
+
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-12 the-tongquan">
+                <img src="~/images/img/icon tong quan.svg" class="img-tongquan" />
+            </div>
+
+            <div class="col-md-7 col-xs-12 col-sm-12">
+                <div class="col-md-10 col-xs-11 col-sm-11 the-mo-ta-lich-trinh">
+                    <div style="background:#125C5F;padding:15px;border: 1px solid #ccc;border-radius: 4px">
+
+                        <form class="form-lich-trinh">
+                            <div class="form-group row">
+                                <p class="text-ten-lich-trinh">Tên lịch trình</p>
+                                <input type="text" class="form-control form-control-lg" id="colFormLabelLg" />
+                            </div>
+
+                            <div class="form-group row" style="margin-top:10px">
+                                <p class="text-ten-lich-trinh">Mô tả lịch trình</p>
+                                <textarea name="description" tabindex="10" rows="5" class="mo-ta-lich-trinh"></textarea>
+                            </div>
+
+                            <div class="form-group row">
+                                <button class="col-md-3 col-xs-3 tai-hinh-nen">Tải hình nền</button>
+                                <div class="col-md-5 col-xs-5">
+                                    <div class="show-hinh-nen"></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row diem-den-va-di">
+
+            <div class="col-md-6">
+                <div style="text-align:center;position:relative">
+                    <form class="col-lg-8" style="margin-top:2%;position:absolute;right:1px;border: 1px solid #125C5F;border-radius: 4px;padding-top:30px;padding-bottom:95px">
+                        <p style="font-size:14px;color:black;margin-bottom:1px;margin-left:1px;text-align:left;margin-left:14%">Điểm khởi hành</p>
+                        <select class="myselect" style="width:72%;padding:12px;border: 1px solid #cccccc;border-radius: 5px;box-shadow: 0 0 20px rgba(0, 0, 0, .2);">
+                            <option>Chọn địa điểm</option>
+                            <option>Hà nội</option>
+                            <option>Hà nội</option>
+                            <option>Hà nội</option>
+                            <option>Hà nội</option>
+                            <option>Hà nội</option>
+                            <option>Hà nội</option>
+                            <option>Hà nội</option>
+                        </select>
+                        <p class="phuongtiendi">Phương tiện đi</p>
+                        <div class="col-lg-12" style="padding-bottom:3%;text-align:center;margin-left:11%">
+                            <div class="col-lg-2" style="margin-right:3%">
+                                <button type="button" class="equalButton" style="background:#31939C">
+                                    <img src="~/images/img/icon_airplane.png" class="img-trafic">
+                                    <p style="font-size:9px;color:white;margin-top: 3px;">Máy bay</p>
+                                </button>
+                            </div>
+                            <div class="col-lg-2" style="margin-right:3%">
+                                <button type="button" class="equalButton">
+                                    <img src="~/images/img/icon_train.png" class="img-trafic">
+                                    <p style="font-size:9px;color:white;margin-top: 3px;">Xe lửa</p>
+                                </button>
+                            </div>
+                            <div class="col-lg-2" style="margin-right:3%">
+                                <button type="button" class="equalButton">
+                                    <img src="~/images/img/icon_bus.png" class="img-trafic">
+                                    <p style="font-size:9px;color:white;margin-top: 3px;">Xe khách</p>
+                                </button>
+                            </div>
+                            <div class="col-lg-2" style="margin-right:3%">
+                                <button type="button" class="equalButton">
+                                    <img src="~/images/img/icon_motocycle.png" class="img-trafic">
+                                    <p style="font-size:9px;color:white;margin-top: 3px;">Tự túc</p>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="di">
+                            <p style="font-size:30px;color:white">ĐI</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div style="text-align:center;position:relative">
+
+                    <form class="col-lg-8 col-xs-8 form-diem-den">
+                        <p class="text-diem-den">Điểm đến</p>
+                        <select class="myselect" style="width:72%;padding:12px;border: 1px solid #cccccc;border-radius: 5px;box-shadow: 0 0 20px rgba(0, 0, 0, .2);">
+                            <option>Chọn địa điểm</option>
+                            <option>Hà nội</option>
+                            <option>Hà nội</option>
+                            <option>Hà nội</option>
+                            <option>Hà nội</option>
+                            <option>Hà nội</option>
+                            <option>Hà nội</option>
+                            <option>Hà nội</option>
+                        </select>
+                        <p class="phuongtiendi">Phương tiện đi</p>
+                        <div class="col-lg-12" style="padding-bottom:3%;text-align:center;margin-left:11%">
+
+                            <div class="col-lg-2" style="margin-right:3%">
+                                <button type="button" class="equalButton" style="background:#31939C">
+                                    <img src="~/images/img/icon_plane.png" class="img-trafic">
+                                    <p style="font-size:9px;color:white;margin-top: 3px;">Máy bay</p>
+                                </button>
+                            </div>
+                            <div class="col-lg-2" style="margin-right:3%">
+                                <button type="button" class="equalButton">
+                                    <img src="~/images/img/icon_train.png" class="img-trafic">
+                                    <p style="font-size:9px;color:white;margin-top: 3px;">Xe lửa</p>
+                                </button>
+                            </div>
+                            <div class="col-lg-2" style="margin-right:3%">
+                                <button type="button" class="equalButton">
+                                    <img src="~/images/img/icon_bus.png" class="img-trafic">
+                                    <p style="font-size:9px;color:white;margin-top: 3px;">Xe khách</p>
+                                </button>
+                            </div>
+                            <div class="col-lg-2" style="margin-right:3%">
+                                <button type="button" class="equalButton">
+                                    <img src="~/images/img/icon_motocycle.png" class="img-trafic">
+                                    <p style="font-size:9px;color:white;margin-top: 3px;">Tự túc</p>
+                                </button>
+                            </div>
+
+                        </div>
+                        <div class="ve">
+                            <p style="font-size:30px;color:white">VỀ</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <img src="~/images/img/icon link.svg" class="noi2tabtren" />
+            <img src="~/images/img/icon link.svg" class="noi2tabduoi" />
+
+        </div>
+        @*cho dien thoai di dong*@
+
+
+        <div class="col-xs-12 col-sm-12 di-ve">
+
+            <div style="text-align:center;position:relative">
+
+                <form class="col-xs-10 col-sm-11 form-diem-den">
+                    <p class="text-diem-den">Điểm đến</p>
+                    <select class="myselect diem-den">
+                        <option>Chọn địa điểm</option>
+                        <option>Hà nội</option>
+                        <option>Hà nội</option>
+                        <option>Hà nội</option>
+                        <option>Hà nội</option>
+                        <option>Hà nội</option>
+                        <option>Hà nội</option>
+                        <option>Hà nội</option>
+                    </select>
+                    <p class="phuongtiendi">Phương tiện đi</p>
+                    <div class="col-xs-12 col-sm-12" style="padding-bottom:3%;text-align:center;margin-left:11%">
+
+                        <div class="col-xs-2" style="margin-right:3%">
+                            <button type="button" class="equalButton" style="background:#31939C">
+                                <img src="~/images/img/icon_airplane.png" class="img-trafic">
+                                <p class="text-cac-loai-pt-di">Máy bay</p>
+                            </button>
+                        </div>
+                        <div class="col-xs-2" style="margin-right:3%">
+                            <button type="button" class="equalButton">
+                                <img src="~/images/img/icon_train.png" class="img-trafic">
+                                <p class="text-cac-loai-pt-di">Xe lửa</p>
+                            </button>
+                        </div>
+                        <div class="col-xs-2" style="margin-right:3%">
+                            <button type="button" class="equalButton">
+                                <img src="~/images/img/icon_bus.png" class="img-trafic">
+                                <p class="text-cac-loai-pt-di">Xe khách</p>
+                            </button>
+                        </div>
+                        <div class="col-xs-2" style="margin-right:3%">
+                            <button type="button" class="equalButton">
+                                <img src="~/images/img/icon_motocycle.png" class="img-trafic">
+                                <p class="text-cac-loai-pt-di">Tự túc</p>
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="di">
+                        <p style="font-size:15px;color:white;margin-top: 15%;">ĐI</p>
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+
+        <div class="col-xs-12 col-sm-12 di-ve">
+
+            <div style="text-align:center;position:relative">
+
+                <form class="col-xs-10 col-sm-11 form-diem-den" id=" item1">
+                    <p class="text-diem-den">Điểm đến</p>
+                    <select class="myselect  diem-den">
+                        <option>Chọn địa điểm</option>
+                        <option>Hà nội</option>
+                        <option>Hà nội2</option>
+                        <option>Hà nội3</option>
+                        <option>Hà nội4</option>
+                        <option>Hà nội5</option>
+                        <option>Hà nội6</option>
+                        <option>Hà nội7</option>
+                    </select>
+                    <p class="phuongtiendi">Phương tiện đi</p>
+                    <div class="col-xs-12" style="padding-bottom:3%;text-align:center;margin-left:11%">
+
+                        <div class="col-xs-2 col-sm-2" style="margin-right:3%">
+                            <button type="button" class="equalButton" style="background:#31939C">
+                                <img src="~/Content/img/icon_plane.png" class="img-trafic">
+                                <p class="text-cac-loai-pt-di">Máy bay</p>
+                            </button>
+                        </div>
+                        <div class="col-xs-2 col-sm-2" style="margin-right:3%">
+                            <button type="button" class="equalButton">
+                                <img src="~/Content/img/icon_train.png" class="img-trafic">
+                                <p class="text-cac-loai-pt-di">Xe lửa</p>
+                            </button>
+                        </div>
+                        <div class="col-xs-2 col-sm-2" style="margin-right:3%">
+                            <button type="button" class="equalButton">
+                                <img src="~/Content/img/icon_bus.png" class="img-trafic">
+                                <p class="text-cac-loai-pt-di">Xe khách</p>
+                            </button>
+                        </div>
+                        <div class="col-xs-2 col-sm-2" style="margin-right:3%">
+                            <button type="button" class="equalButton">
+                                <img src="~/Content/img/icon_motocycle.png" class="img-trafic">
+                                <p class="text-cac-loai-pt-di">Tự túc</p>
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="di">
+                        <p style="font-size:15px;color:white;margin-top: 15%;">VỀ</p>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+
+
+        <div class="col-md-12 col-xs-12 col-sm-12" style="margin-bottom:20px;margin-top:2%">
+
+            <div class="col-lg-6 col-xs-10 col-sm-11 tab-diemkhoihanh">
+                <div class="col-lg-6 col-xs-11 col-sm-11">
+                    <p class="text-ngay-khoi-hanh">Ngày khởi hành</p>
+                    <div class="form-group">
+                        <div class='input-group date' id='datetimepicker1'>
+                            <input type='date' class="form-control input-ngaykhoihanh" />
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-xs-11 col-sm-11">
+                    <p class="text-ngay-khoi-hanh">Tổng số ngày dự kiến</p>
+                    <select class="myselect chon-ngay-du-kien myselecttab">
+                        <option>2 ngày 1 đêm</option>
+                        <option>Hà nội</option>
+                        <option>Hà nội</option>
+                        <option>Hà nội</option>
+                        <option>Hà nội</option>
+                        <option>Hà nội</option>
+                        <option>Hà nội</option>
+                        <option>Hà nội</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-xs-10 col-sm-11 chi-phi-du-kien">
+
+                <div class="col-lg-8 col-xs-8 col-sm-8">
+                    <p class="text-ngay-khoi-hanh">Tổng chi phí dự kiến</p>
+                    <div class="form-group">
+                        <div class='abc'>
+                            <input type='text' class="form-control text-chi-phi-du-kien" />
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-sm-4" style="margin-top:4%">
+                    <p class="vnd">-VND-</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row" style="margin-bottom:200px;padding-top:20px">
+            <div class="col-md-10 col-xs-10">
+                <button class="nut-luu" onclick="callSave()">Lưu</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Javascript-->
+    <script src="main.js"></script>
+    <script type=”text/javascript” src=”http://code.jquery.com/jquery-2.0.3.min.js”></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="~/js/bootstrap.js"></script>
+    <script type="text/javascript" src="~/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="~/js/jquery-1.10.2.min.js"></script>
+
+
+    <script type="text/javascript">
+        function callSave() {
+            var UserModel =
+            {
+                "id": 444,
+                "name": document.getElementById("colFormLabelLg").value.toString(),
+                "describe": "323",
+                "departure": "323gdg",
+                "duration": "dfg",
+                "dateStart": "2018-10-17T00:00:00",
+                "daytotal": 12,
+                "cost": 12
+            }; 
+             $.ajax({
+                 type: 'POST',
+                 url: "/Home/SendRequestAsyncSchedule",
+                 data: JSON.stringify(UserModel),
+                contentType: "application/json; charset=utf-8",
+                success: function () {
+                    alert("success");
+                },
+                 error: function () {
+                     alert("error");
+                }
+                });
+        }
+    </script>
+    <script>
+        // tiline thanh cong
+        $(document).ready(function () {
+            $("i").click(function () {
+                if ($(window).width() < 768) {
+                    $("i").animate({
+                        height: '10px',
+                        width: '10px',
+                        top: '-4px'
+                    }, "fast");
+                    $(this).animate({
+                        height: '20px',
+                        width: '20px',
+                        top: '-9px'
+                    }, "fast");
+                    if (this.id == 'mp1') {
+                        $("#tongquan").animate({
+                            fontSize: '11px',
+                            bottom: '-9px',
+                        });
+                        $("#themdiadiem").css({
+                            fontSize: '5px'
+                        });
+                        $("#thanhcong").css({
+                            fontSize: '5px'
+                        });
+                    }
+                    if (this.id == 'mp2') {
+                        $("#themdiadiem").animate({
+                            fontSize: '11px',
+                            bottom: '-9px',
+                        });
+                        $("#tongquan").css({
+                            fontSize: '5px'
+                        });
+                        $("#thanhcong").css({
+                            fontSize: '5px'
+                        });
+                    }
+                    if (this.id == 'mp3') {
+                        $("#thanhcong").animate({
+                            fontSize: '11px',
+                            bottom: '-9px',
+                        });
+                        $("#themdiadiem").css({
+                            fontSize: '5px'
+                        });
+                        $("#tongquan").css({
+                            fontSize: '5px'
+                        });
+                    }
+                }
+                else if ($(window).width() >= 768 && $(window).width() < 992) {
+                    $("i").animate({
+                        height: '12px',
+                        width: '12px',
+                        top: '-7px'
+                    }, "fast");
+                    $(this).animate({
+                        height: '30px',
+                        width: '30px',
+                        top: '-13px'
+                    }, "fast");
+                    if (this.id == 'mp1') {
+                        $("#tongquan").animate({
+                            fontSize: '20px',
+                            bottom: '-13px',
+                        });
+                        $("#themdiadiem").css({
+                            fontSize: '8px'
+                        });
+                        $("#thanhcong").css({
+                            fontSize: '8px'
+                        });
+                    }
+                    if (this.id == 'mp2') {
+                        $("#themdiadiem").animate({
+                            fontSize: '20px'
+                        });
+                        $("#tongquan").css({
+                            fontSize: '8px'
+                        });
+                        $("#thanhcong").css({
+                            fontSize: '8px'
+                        });
+                    }
+                    if (this.id == 'mp3') {
+                        $("#thanhcong").animate({
+                            fontSize: '20px'
+                        });
+                        $("#themdiadiem").css({
+                            fontSize: '8px'
+                        });
+                        $("#tongquan").css({
+                            fontSize: '8px'
+                        });
+                    }
+                }
+                else {
+                    $("i").animate({
+                        height: '13px',
+                        width: '12px',
+                        top: '-5px',
+
+                    }, "fast");
+                    $(this).animate({
+                        height: '27px',
+                        width: '27px',
+                        top: '-13px',
+                    }, "fast");
+                    if (this.id == 'mp1') {
+                        $("#tongquan").animate({
+                            fontSize: '20px',
+                            bottom: '-13px',
+                        }, "slow");
+                        $("#themdiadiem").css({
+                            fontSize: '8px'
+                        });
+                        $("#thanhcong").css({
+                            fontSize: '8px'
+                        });
+                    }
+                    if (this.id == 'mp2') {
+                        $("#themdiadiem").animate({
+                            fontSize: '20px'
+                        });
+                        $("#tongquan").css({
+                            fontSize: '8px'
+                        });
+                        $("#thanhcong").css({
+                            fontSize: '8px'
+                        });
+                    }
+                    if (this.id == 'mp3') {
+                        $("#thanhcong").animate({
+                            fontSize: '20px'
+                        });
+                        $("#themdiadiem").css({
+                            fontSize: '8px'
+                        });
+                        $("#tongquan").css({
+                            fontSize: '8px'
+                        });
+                    }
+                }
+            });
+        });
+
+
+    </script>
+
+
+
+
+</body>
+</html>
